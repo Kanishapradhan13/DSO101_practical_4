@@ -1,7 +1,7 @@
 {
   agent any
   tools {
-    nodejs 'NodeJS-20.x'  // Matches the Global Tool Configuration name
+    nodejs 'NodeJS 24.0.2'  // Matches the Global Tool Configuration name
   }
   stages {
     stage('Install') {
